@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+h1{
+    font-family: 'Lobster', cursive;
+}
+div.upper-h {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+.m_form{
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.m_form,.m_form > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+   
+}
+.outer-cnt a img {
+    margin-right: 0.4rem;
+    height: 15px;
+    width: 15px;
+}
+
+.outer-cnt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.outer-cnt a {
+    display: flex;
+    align-items: center;
+    margin: 0.4rem 0;
+    font-weight: 600;
+    font-family: system-ui;
+    font-size: 0.9rem;
+    color: #333333;
+    text-decoration: none;
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+.from-item {
+    width: 258px;
+    display: flex;
+}
+
+.from-item input {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    display: inline-block;
+}
+.from-item a {
+    color:#fff;
+    background: #0169ad;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    width: 100%;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.outer-cnt a:last-child {
+    font-size: 0.7rem;
+}
+.last {
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-family: system-ui;
+    margin: 5px 5px;
+}
+.last a{
+    text-decoration: none;
+    padding-left: 0.3rem;
+}
+.img-set{
+    display: flex;
+    justify-content: space-evenly;
+}
+.center{
+    text-align: center;
+}
